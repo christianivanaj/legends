@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# Legends of the Coast
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to Legends of the Coast! This is a React Native app built using the Expo framework. The app provides a comprehensive list of sourcebooks, character creations, Dungeon Master tools, etc. featuring essential references for players, dungeon masters, and more.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Usage](#usage)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [License](#license)
 
-   ```bash
-   npm install
-   ```
+## Installation
 
-2. Start the app
+To get started with this project, follow these steps:
 
-   ```bash
+1. Clone the repository:
+    ```
+    git clone https://github.com/christianivanaj/legends.git
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Install Expo CLI if you haven't already:
+    ```
+    npm install -g expo-cli
+    ```
+
+4. Start the Expo development server:
+    ```
     npx expo start
-   ```
+    ```
 
-In the output, you'll find options to open the app in a
+## Usage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Once the development server is running, you can view the app on your iOS or Android device using the Expo Go app. Simply scan the QR code provided in the Expo CLI or web interface.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+- Display the Legends of the Coast sourcebooks
+- Allow users to create a character
+- Tools for Dungeon Masters to create and manage their games with ease
+- Responsive design that works on both iOS and Android devices
 
-When you're ready, run:
+## Screenshots
 
-```bash
-npm run reset-project
-```
+<!-- ![Home Screen](path/to/screenshot1.png) -->
+<!-- Soon... -->
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## License
 
-## Learn more
+This project is licensed under the Proprietary License. By accessing or using this software, you agree to the following terms and conditions:
 
-To learn more about developing your project with Expo, look at the following resources:
+1. License Grant
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The author grants you a non-exclusive, non-transferable, revocable license to use the software solely for personal evaluation purposes. This license does not permit personal or professional use beyond evaluation, distribution, modification, or reverse engineering of the software.
 
-## Join the community
+2. Restrictions
 
-Join our community of developers creating universal apps.
+You may not:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    Use the software for any personal, commercial, or professional purpose.
+    Distribute, sublicense, lease, rent, or otherwise transfer the software or any portion thereof.
+    Modify, adapt, translate, or create derivative works based on the software.
+    Decompile, disassemble, reverse engineer, or attempt to derive the source code of the software.
+
+3. Termination
+
+This license is effective until terminated. Your rights under this license will terminate automatically without notice if you fail to comply with any term(s) of this license. Upon termination, you shall cease all use of the software and destroy all copies, full or partial, of the software.
+
+4. Ownership
+
+All rights, title, and interest in and to the software, including but not limited to any images, photographs, animations, video, audio, music, text, and "applets" incorporated into the software, are owned by the author or its suppliers.
+
+5. Disclaimer of Warranties
+
+The software is provided "as is" without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the author be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+6. Limitation of Liability
+
+In no event shall the author be liable for any special, incidental, indirect, or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use the software, even if the author has been advised of the possibility of such damages.
+
+7. Governing Law
+
+This license shall be governed by and construed in accordance with the laws of the jurisdiction in which the author resides, without regard to its conflict of laws rules.
