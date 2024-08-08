@@ -1,9 +1,9 @@
 import React from 'react';
 import { Text, View, TextInput, TouchableOpacity, FlatList, Image } from 'react-native';
-import { useFonts, Inter_900Black } from '@expo-google-fonts/inter';
-import { Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
+import { useFonts, Poppins_400Regular, Poppins_700Bold } from '@expo-google-fonts/poppins';
 import { LinearGradient } from 'expo-linear-gradient';
 import { FontAwesome } from '@expo/vector-icons';
+import { FontAwesome6 } from '@expo/vector-icons';
 import styles from './src/styles/styles';
 
 const sourcebooks = [
@@ -17,9 +17,8 @@ const sourcebooks = [
 
 export default function App() {
   let [fontsLoaded] = useFonts({
-    Inter_900Black,
-    Roboto_400Regular,
-    Roboto_700Bold,
+    Poppins_400Regular,
+    Poppins_700Bold,
   });
 
   if (!fontsLoaded) {
@@ -29,7 +28,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Navbar />
-      <Text style={styles.header}>Welcome to the D&D Sourcebooks Library</Text>
+      <Text style={styles.header}>Welcome to the Legends of the Coast!</Text>
       <FlatList
         data={sourcebooks}
         keyExtractor={item => item.id}
@@ -50,9 +49,10 @@ const Navbar = () => {
       <Image source={{ uri: 'https://via.placeholder.com/40' }} style={styles.logo} />
       <TextInput style={styles.searchBar} placeholder="Search..." placeholderTextColor="#ccc" />
       <View style={styles.iconContainer}>
-        <FontAwesome name="facebook" size={24} color="white" style={styles.icon} />
-        <FontAwesome name="twitter" size={24} color="white" style={styles.icon} />
-        <FontAwesome name="instagram" size={24} color="white" style={styles.icon} />
+        <FontAwesome6 name="threads" size={24} color="white" style={styles.icon} />
+        <FontAwesome6 name="twitter" size={24} color="white" style={styles.icon} />
+        <FontAwesome6 name="instagram" size={24} color="white" style={styles.icon} />
+        <FontAwesome6 name="tiktok" size={24} color="white" style={styles.icon} />
       </View>
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.navButton}>

@@ -12,7 +12,7 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
-    fontFamily: 'Roboto_700Bold',
+    fontFamily: 'Poppins_700Bold',
   },
   bookItem: {
     borderWidth: 1,
@@ -24,7 +24,7 @@ export default StyleSheet.create({
   bookTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    fontFamily: 'Roboto_700Bold',
+    fontFamily: 'Poppins_700Bold',
   },
   navbar: {
     width: '100%',
@@ -46,25 +46,31 @@ export default StyleSheet.create({
     borderRadius: 20,
     paddingHorizontal: 10,
     marginHorizontal: 10,
+    maxWidth: '50%',
   },
   iconContainer: {
     flexDirection: 'row',
   },
   icon: {
-    marginHorizontal: 5,
+    margin: 5,
+    padding: 5,
   },
   buttonContainer: {
     flexDirection: 'row',
   },
   navButton: {
-    marginLeft: 10,
-    paddingVertical: 5,
-    paddingHorizontal: 10,
-    backgroundColor: '#4267B2',
+    margin: 5,
+    paddingLeft: 20,
+    paddingRight: 20,
+    backgroundColor: 'red',
     borderRadius: 5,
+    height: 40,
   },
   navButtonText: {
     color: 'white',
-    fontFamily: 'Roboto_400Regular',
+    fontFamily: 'Poppins_400Regular',
+    verticalAlign: 'center',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
