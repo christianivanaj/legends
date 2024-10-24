@@ -1,6 +1,6 @@
-# Legends of the Coast
+# Tales of Legends
 
-Welcome to Legends of the Coast! This is a React Native app built using the Expo framework. The app provides a comprehensive list of sourcebooks, character creations, Dungeon Master tools, etc. featuring essential references for players, dungeon masters, and more.
+Welcome to Tales of Legends! This is a React Native app built using the Expo framework. The app provides a comprehensive list of sourcebooks, character creations, Dungeon Master tools, etc. featuring essential references for players, dungeon masters, and more!
 
 ## Table of Contents
 
@@ -35,19 +35,26 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-Once the development server is running, you can view the app on your iOS or Android device using the Expo Go app. Simply scan the QR code provided in the Expo CLI or web interface.
+Once the development server is running, you can view the app on your iOS or Android device using the Expo Go app. Simply scan the QR code provided in the Expo CLI or manually reach the local server through your web interface.
 
-## Features
+This app is a product for Legends of the Lake's table-top RPG, *Tales of Legends*.
 
-- Display the Legends of the Coast sourcebooks
-- Allow users to create a character
-- Tools for Dungeon Masters to create and manage their games with ease
+## Features/Roadmap
+
+- Display the Legends of the Coast sourcebooks [In Progress]
+- Allow users to create a character with a character sheet [In Progress]
+- Tools for Dungeon Masters to create and manage their games with ease [In Progress]
+- Ability to play the game virtually, online! [In Progress]
+    - Fully customizable and interactive virtual game board with visable 
+    - Seemlessly online gaming
+    - Tools for Dungeon Masters allowing them to create and integrate custom items, characters, assets, etc. [Backlog]
 - Responsive design that works on both iOS and Android devices
+- All being completely available online for users! [In Progress]
 
 ## Screenshots
 
 <!-- ![Home Screen](path/to/screenshot1.png) -->
-<!-- Soon... -->
+***Soon.***
 
 ## License
 
